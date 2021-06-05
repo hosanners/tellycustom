@@ -6,6 +6,6 @@
     </update>
   </info>
   <files>
-    <file name="source.xml" url="https://github.com/hosanners/tellycustom/background-cursehunter.xml" />
+    <file name="source.xml" url="https://github.com/hosanners/tellycustom/blob/main/background-cursehunter.xml" />
   </files>
 </index>

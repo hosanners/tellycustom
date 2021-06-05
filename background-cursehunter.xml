@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Curse Hunter</name>
+		<description>Background of the cursed man</description>
+		<author>Me</author>
+		<update version="0.0.1">
+			<file name="background-cursehunter.xml" url="https://github.com/hosanners/tellycustom/blob/main/background-cursehunter.xml" />
+		</update>
+	</info>
+
+	<element name="Curse Hunter" type="Background" source="Telras Custom" id="ID_TLRS_BACKGROUND_CRSHNTR">
+		<description>
+			<p>Custom background.</p>
+			<ul>
+				<li><strong>Skill Proficiencies:</strong> History and Arcana</li>
+				<li><strong>Tool Proficiencies:</strong> None</li>
+				<li><strong>Languages:</strong> Draconic</li>
+				<li><strong>Equipment:</strong> An amulet of Identify and a set of enchanted gloves that magic cannot pass through (touch cursed stuff, cant cast magic while they are on)</li>
+			</ul>
+			<div element="ID_TLRS_BACKGROUND_FEATURE_CURSED_PREPARATION" />
+		</description>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Curse Hunter)" supports="Skill" number="2" />
+			<select type="Proficiency" name="Tool Proficiency (Curse Hunter)" supports="Tool" optional="true"/>
+			<select type="Language" name="Language (Curse Hunter)" optional="true" />
+			<grant type="Background Feature" id="ID_TLRS_BACKGROUND_FEATURE_CURSED_PREPARATION" />
+			<select name="Personality Trait" type="List">
+				<item id="1">
+				</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">
+				</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">
+				</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">
+				</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Cursed Preparation" type="Background Feature" source="Telras Custom" id="ID_TLRS_BACKGROUND_FEATURE_CURSED_PREPARATION">
+		<description>
+			<p>When a cursed object you are holding causes you to make a saving throw, you have advantage on that saving throw. Additionally, when rolling a history or arcana check to determine information about a cursed object (including the arcana check associated with the Identify spell) you may add double your proficiency modifier to that check, as though you had expertise in the skill.</p>
+		</description>
+		<sheet alt="Curse Hunter">
+			<description>Big boy curse hunter.</description>
+		</sheet>
+	</element>
+</elements>

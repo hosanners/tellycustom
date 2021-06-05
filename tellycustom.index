@@ -2,7 +2,7 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="sample.index" url="https://github.com/hosanners/tellycustom/tellycustom.index" />
+      <file name="sample.index" url="https://github.com/hosanners/tellycustom/blob/main/tellycustom.index" />
     </update>
   </info>
   <files>

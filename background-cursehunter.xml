@@ -9,7 +9,7 @@
 		<description>
 			<p>CUSTOM BACKGROUND</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> History and Arcana.</li>
+				<li><strong>Skill Proficiencies:</strong> History and Arcana</li>
 				<li><strong>Languages:</strong> Draconic</li>
 				<li><strong>Tool Proficiencies:</strong> None</li>
 				<li><strong>Equipment:</strong> An amulet of Identify and a set of enchanted gloves that magic cannot pass through (touch cursed stuff, cant cast magic while they are on)</li>
@@ -18,9 +18,8 @@
 		</description>		
 		<rules>
 			<grant type="Proficiency" number="2" id="ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_ARCANA" />
-			<select type="Language" name="Language (Draconic)" number="1"/>
-			<grant type="Background Feature" id="ID_TLRS_BACKGROUND_FEATURE_CURSED_PREPARATION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
-			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<grant type="Language" name="Language (Draconic)" number="1"/>
+			<grant type="Background Feature" id="ID_TLRS_BACKGROUND_FEATURE_CURSED_PREPARATION" />
 		</rules>			
 	</element>
 	

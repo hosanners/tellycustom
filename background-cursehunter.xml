@@ -26,7 +26,7 @@
 	<element name="Feature: Cursed Preparation" type="Background Feature" source="Telras" id="ID_TLRS_BACKGROUND_FEATURE_CURSED_PREPARATION">
 		<supports>Background Feature</supports>
 		<description>
-			<p>When a cursed object you are holding causes you to make a saving throw, you have advantage on that saving throw. Additionally, when rolling a history or arcana check to determine information about a cursed object (including the arcana check associated with the Identify spell) you may add double your proficiency modifier to that check, as though you had expertise in the skill.
+			<p>When a cursed object you are holding causes you to make a saving throw, you have advantage on that saving throw. Additionally, when rolling a history or arcana check to determine information about a cursed object (including the arcana check associated with the Identify spell) you may add double your proficiency modifier to that check, as though you had expertise in the skill.</p>
 		</description>
 		<sheet alt="Cursed Preparation" />
 	</element>

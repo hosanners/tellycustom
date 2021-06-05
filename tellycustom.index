@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="1.0">
+      <file name="tellycustom.index" url="https://github.com/hosanners/tellycustom/blob/main/tellycustom.index" />
+    </update>
+  </info>
+  <files>
+    <file name="background-cursehunter.xml" url="https://github.com/hosanners/tellycustom/blob/main/background-cursehunter.xml" />
+  </files>
+</index>

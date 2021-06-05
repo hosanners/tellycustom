@@ -18,7 +18,7 @@
 		</description>		
 		<rules>
 			<grant type="Proficiency" number="2" id="ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_ARCANA" />
-			<grant type="Language" name="Language (Draconic)" number="1"/>
+			<grant type="Language" name="Language (Draconic)" number="1" />
 			<grant type="Background Feature" id="ID_TLRS_BACKGROUND_FEATURE_CURSED_PREPARATION" />
 		</rules>			
 	</element>
